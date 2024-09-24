@@ -1,3 +1,3 @@
 export function Message() {
-    return <p>What a beautiful day!</p>;
-  }
+  return <p>What a beautiful day!</p>;
+}
