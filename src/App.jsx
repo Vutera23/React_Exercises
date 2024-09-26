@@ -1,14 +1,11 @@
-import { Clock } from "./Clock.jsx";
-import { SecondCounter } from "./SecondCounter";
+import { MouseClick } from "./MouseClicker";
 
 export function App() {
   return (
     <div>
       <h1>My Awesome Application</h1>
       <hr />
-      <SecondCounter initialValue={0} incrementImport={1} />
-      <hr />
-      <Clock />
+      <MouseClick />
     </div>
   );
 }
